@@ -27,3 +27,8 @@ Run `jekyll serve --watch` in the root of the project.
 ## Deploying
 
 1. All code on master is automatically deployed by GitHub once it has been pushed to GitHub.
+
+## TODO
+
+1. Google analytics snippet
+2. Favicons / Tile icons
