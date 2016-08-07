@@ -30,5 +30,7 @@ Run `jekyll serve --watch` in the root of the project.
 
 ## TODO
 
+0. Styling
 1. Google analytics snippet
 2. Favicons / Tile icons
+3. Syntax Highlighting?

@@ -1,38 +1,40 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer id="site-footer">
+  <div class="full-column">
+    <h3>For Good Quotes, Free Advice and Excellent Conversation:</h3>
+    <nav id="footer-navigation">
+      <ul>
+        <li>
+          <div id="call" class="reveal-modal">
+            <p>On second thought, I hate phone calls.</p>
+            <p>However, you can leave me a voicemail at my business number: (858) 205-9285</p>
+          </div>
+          <a href="#" data-reveal-id="call">call</a>
+        </li>
+        <li>
+          <div id="email" class="reveal-modal">
+            <p>
+              Email:
+              <br />
+              <a href="mailto:eliza@elizamarcum.com">eliza@elizamarcum.com</a>
+            </p>
+          </div>
+          <a href="#" data-reveal-id="email">email</a>
+        </li>
+        <li>
+          <div id="skype" class="reveal-modal">
+            <p>
+              Skype:
+              <br />
+              elizabrock
+            </p>
+          </div>
+          <a href="#" data-reveal-id="skype">skype</a>
+        </li>
+        <li>
+          or
+          <a href="http://twitter.com/#!/elizabrock" target: "_blank">tweet</a>
+        </li>
+      </ul>
+    </nav>
   </div>
-
 </footer>

@@ -7,12 +7,14 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        {% include header.html %}
-        <div class="page-content">
-          <div class="wrapper">
-            {{ content }}
-          </div>
-        </div>
+        <section id="container">
+          {% include header.html %}
+          <section id="page-body">
+            <div class="full-column">
+              {{ content }}
+            </div>
+          </section>
+        </section>
         {% include footer.html %}
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
