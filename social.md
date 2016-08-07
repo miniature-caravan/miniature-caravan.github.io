@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Social
-order: 6
+order: 5
 permalink: /social/
 ---
 

@@ -3,15 +3,15 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: $font-stack-system;
+$base-font-family: "ronnia", $font-stack-system;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 1.5em;
 
 // Line height
 $base-line-height: 1.5;
-$heading-line-height: 1.2;
+$heading-line-height: 1.4;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -20,8 +20,14 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
+$mediumred: #A23736;
+$darkred: #6F2625;
+$dark-gray: #222;
+
+$border-color: transparentize($darkred, 0.25);
+$basically-transparent: transparentize(#fff, 0.95);
+
 $blue: #1565c0;
-$dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 

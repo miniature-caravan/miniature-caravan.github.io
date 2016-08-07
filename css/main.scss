@@ -3,6 +3,7 @@
 ---
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bourbon/bourbon";
+@import "base/grid-settings";
 @import "neat/neat";
 @import "base/base";
-// @import "my-project-styles";
+@import "vendor/jquery.modal-0.7.0.min";
