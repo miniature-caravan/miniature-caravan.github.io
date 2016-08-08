@@ -1,26 +1,19 @@
 ---
 layout: page
 title: Home
+hide-title: true
 order: 1
 permalink: /
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<h2 class="section-title">Here's To Serendipity!</h2>
+<section class="callout">
+  <section class="half-column">
+    <img src="/images/headshotwithborder.jpeg" class="inline" />
+  </section>
+  <section class="half-column">
+    <p>Welcome! I'm Eliza (Brock) Marcum.</p>
+    <p>I run my own software company, Eliza Brock Software, where I make magical things on the internet.</p>
+    <p>And I teach!</p>
+  </section>
+</section>

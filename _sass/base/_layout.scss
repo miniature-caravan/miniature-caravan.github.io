@@ -66,12 +66,104 @@ body {
     }
   }
 
+  section.callout {
+    @include row();
+  }
+
   .full-column {
     @include span-columns($grid-columns);
     @include omega();
+  }
+
+  .half-column {
+    @include span-columns($grid-columns / 2);
+    @include omega(2n);
+    padding-right: $base-font-size;
+    &:nth-child(2n){
+      padding-right: 0;
+    }
+    @include media($mobile) {
+      padding-right: 0;
+      @include span-columns(4);
+    }
+  }
+
+  section#page-body > .full-column {
+    @include span-columns($grid-columns - 2);
+    @include shift(1);
+    @include omega();
+  }
+}
+
+@mixin content-section($background:$transparent-pale, $border-color:$darkred) {
+  // Set a non-alpha background color to soothe IE
+  background-color: $pale;
+  background: $background url('/images/bg-gradient-large-lightest.png') repeat-x top center;
+  border: 1px solid $border-color;
+  padding: 0.5em;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
+  margin-top: span(1);
+  padding-top: 0.25em;
+  &:first-of-type{ margin-top: 0; }
+  margin-bottom: span(1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  &.section-title {
+    margin-bottom: 0;
+    margin-top: 1em;
+    border-bottom: 5px solid $darkred;
+  }
+}
+
+section.callout {
+  @include content-section;
+  padding: $base-font-size;
+  p:last-child {
+    margin-bottom: 0;
+  }
+  ul {
+    margin-left: 1em;
+    list-style-type: disc;
+    &.two-up {
+      list-style-type: none;
+      li {
+        width: 48%;
+        display: inline-block;
+      }
+    }
+  }
+  ol {
+    margin-left: 1em;
+    list-style-type: decimal;
+  }
+  & + section.callout {
+    margin-top: 1em;
   }
 }
 
 .modal-content {
   display: none;
+}
+
+img.inline {
+  display: inline-block;
+}
+
+ul.skill_set {
+  list-style-type: none;
+  margin: 0;
+  li {
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    padding: 0.20833em 0.5em 0.25em;
+    background-color: $mediumred;
+    color: white;
+    border-radius: 3px;
+  }
 }

@@ -23,9 +23,11 @@ $base-z-index: 0;
 $mediumred: #A23736;
 $darkred: #6F2625;
 $dark-gray: #222;
+$pale: #f6f0f3;
 
 $border-color: transparentize($darkred, 0.25);
 $basically-transparent: transparentize(#fff, 0.95);
+$transparent-pale: transparentize($pale, 0.03);
 
 $blue: #1565c0;
 $medium-gray: #999;

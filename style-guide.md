@@ -3,11 +3,12 @@ layout: page
 title: Style Guide
 permalink: /styleguide/
 ---
-<p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+<section class="callout">
+  <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+</section>
 
-<hr>
-
-<h1 id="headings">Headings</h1>
+<h2 id="headings" class="section-title">Headings</h2>
+<section class="callout">
 
 <h1>h1. Heading</h1>
 <h2>h2. Heading</h2>
@@ -16,41 +17,46 @@ permalink: /styleguide/
 <h5>h5. Heading</h5>
 <h6>h6. Heading</h6>
 
-<hr>
+</section>
 
-<h1 id="paragraph">Paragraph</h1>
+<h1 id="paragraph" class="section-title">Paragraph</h1>
+<section class="callout">
 
 <p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
 
 <p>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
 
-<hr>
+</section>
+<h1 id="list_types" class="section-title">List Types</h1>
 
-<h1 id="list_types">List Types</h1>
-
-<h3>Definition List</h3>
+<h3 class="section-title">Definition List</h3>
+<section class="callout">
 <dl>
   <dt>Definition List Title</dt>
   <dd>This is a definition list division.</dd>
 </dl>
+</section>
 
-<h3>Ordered List</h3>
+<h3 class="section-title">Ordered List</h3>
+<section class="callout">
 <ol>
   <li>List Item 1</li>
   <li>List Item 2</li>
   <li>List Item 3</li>
 </ol>
+</section>
 
-<h3>Unordered List</h3>
+<h3 class="section-title">Unordered List</h3>
+<section class="callout">
 <ul>
   <li>List Item 1</li>
   <li>List Item 2</li>
   <li>List Item 3</li>
 </ul>
+</section>
 
-<hr>
-
-<h1>Fieldsets and Form Elements</h1>
+<h1 class="section-title">Fieldsets and Form Elements</h1>
+<section class="callout">
 
 <fieldset>
   <legend>A Legendary Fieldset</legend>
@@ -120,7 +126,9 @@ permalink: /styleguide/
 
 <hr>
 
-<h1 id="tables">Tables</h1>
+</section>
+<h1 id="tables" class="section-title">Tables</h1>
+<section class="callout">
 
 <table cellspacing="0" cellpadding="0">
   <tr>
@@ -139,7 +147,9 @@ permalink: /styleguide/
 
 <hr>
 
-<h1 id="misc">Misc Stuff - abbr, acronym, pre, code, sub, sup, etc.</h1>
+</section>
+<h1 id="misc" class="section-title">Misc Stuff - abbr, acronym, pre, code, sub, sup, etc.</h1>
+<section class="callout">
 
 <p>Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. <abbr title="Avenue">AVE</abbr></p>
 
@@ -158,3 +168,4 @@ Donec sed tellus eget sapien fringilla nonummy.
 </blockquote>
 
 <hr>
+</section>
