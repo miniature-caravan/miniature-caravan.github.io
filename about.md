@@ -25,7 +25,9 @@ permalink: /about/
 <h2 class="section-title">Less Official Bio:</h2>
 <section class="callout">
   <section class="half-column">
-    <p>I determined (through much trial and error) that full time employment is just not for me.  In 2010, shortly before quitting my last job, I started my own company, Eliza Brock Software. What started out as just me has grown into a proper company!</p>
+    <!-- <p>I determined (through much trial and error) that full time employment is just not for me.  In 2010, shortly before quitting my last job, I started my own company, Eliza Brock Software. What started out as just me has grown into a proper company!</p> -->
+
+    <p>I'm a software engineer, with experience in many areas.  I've worked with all sorts of companies and technologies, but my focus in recent years has been on Ruby on Rails, startups and education.</p>
 
     <p>I play well with others (see image to right) and I love meeting and working with new people. Nothing gives me more pleasure than learning something new from someone new.</p>
 
