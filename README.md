@@ -32,11 +32,10 @@ Run `jekyll serve --watch` in the root of the project.
 
 0. Styling
 1. Google analytics snippet
-2. Favicons / Tile icons
 3. Update headshot to current headshot
 3. Update bios
 3. Proper .two-up styling
 3. Update skill list
 3. Update link colors (see: $blue)
-3. Regularize heading sizes using modular-scale (see: _typography.scss)
+3. Regularize heading sizes using modular-scale (see: \_typography.scss)
 3. Syntax Highlighting?
