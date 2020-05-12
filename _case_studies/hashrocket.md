@@ -1,5 +1,6 @@
 ---
 title: "Case Study: Hashrocket"
+last_modified_at: 2020-05-11T22:31:31-05:00
 client_name: Hashrocket
 client_link: https://hashrocket.com/
 timeline: 2011

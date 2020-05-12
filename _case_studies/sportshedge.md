@@ -1,5 +1,6 @@
 ---
 title: "Case Study: SportsHedge"
+last_modified_at: 2020-05-11T22:31:31-05:00
 client_name: SportsHedge
 timeline: 2012
 logo: sportshedge_logo.png

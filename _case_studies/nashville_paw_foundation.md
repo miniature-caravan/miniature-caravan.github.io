@@ -1,5 +1,6 @@
 ---
 title: "Case Study: Nashville Paw Foundation"
+last_modified_at: 2020-05-11T22:31:31-05:00
 client_name: Nashville Paw Foundation
 timeline: 2012
 logo: paw_foundation_logo.png

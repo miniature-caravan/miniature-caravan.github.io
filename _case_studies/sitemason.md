@@ -1,5 +1,6 @@
 ---
 title: "Case Study: Sitemason"
+last_modified_at: 2020-05-11T22:31:31-05:00
 client_name: Sitemason
 client_link: https://www.sitemason.com/
 timeline: 2002 - 2016

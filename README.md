@@ -45,26 +45,26 @@ Run `jekyll serve --watch` in the root of the project.
 8. ✔ Run spell check
 10. ✔ Move Primitive to the vendor folder
 9. ✔  Check on TO-DOs in the code
-10. Eliminate unused CSS variables
-11. Remove commented out CSS
-12. Update updated\ats so that the sitemap will be accurate
-12. Relaunch personal site (by pushing this branch to master)
-4. Update personal URL on:
-  * LinkedIn
-  * GitHub
-  * Twitter
-13. Refine the merely acceptable status of the design implementation:
-  *  Have navigation mark the current section
-14. Set up SEO-friendly redirect from elizabrocksoftware.com to elizamarcum.com
-15. Use [jekyll-redirect-from](https://rubygems.org/gems/jekyll-redirect-from) to:
+12. ✔ Update updated\ats so that the sitemap will be accurate
+12. ✔ Relaunch personal site (by pushing this branch to master)
+4. ✔ Update personal URL on:
+  * ✔ LinkedIn
+  * ✔ GitHub
+  * ✔ Twitter
+
+## After the daomin move settling-in period:
+
+1. Set up SEO-friendly redirect from elizabrocksoftware.com to elizamarcum.com
+2. Use [jekyll-redirect-from](https://rubygems.org/gems/jekyll-redirect-from) to:
   * rename /social to /contact
   * set up canonical URLs for the old EBS pages
-16. Cancel Squarespace for elizabrocksoftware.com
+3. Cancel Squarespace for elizabrocksoftware.com
 
 ## Future Improvements
 
-1. More Styling
+1. Refine the merely acceptable status of the design implementation:
   * Use the version of the old logo with the outline, since that will look better on the dark background
+  *  Have navigation mark the current section
   * Separate out my CSS into more appropriately named files
   * Make the nav look better at the in-between sizes
   * Only include the versions of the font that are currently in use
@@ -72,6 +72,8 @@ Run `jekyll serve --watch` in the root of the project.
   * Revisit the blockquote markup: http://html5doctor.com/cite-and-blockquote-reloaded/
   * Refine the footer styling when the two halves of the content don't end at the same point
   * Override in my CSS the changes that I made in Primitive's scaffolding css
+  * Eliminate unused CSS variables
+  * Remove commented out CSS
 2. More updated content:
   * Set proper descriptions on the various pages
   * Update student testimonials with their current job titles

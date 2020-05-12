@@ -1,5 +1,6 @@
 ---
 title: "Case Study: SourceYourCity"
+last_modified_at: 2020-05-11T22:31:31-05:00
 client_name: SourceYourCity
 timeline: 2010 - 2012
 logo: sourceyourcity_logo.png

@@ -1,5 +1,6 @@
 ---
 title: "Case Study: MerchColony"
+last_modified_at: 2020-05-11T22:31:31-05:00
 client_name: MerchColony
 timeline: 2013 - 2016
 logo: merchcolony_logo.png
