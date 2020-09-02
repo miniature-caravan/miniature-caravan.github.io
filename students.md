@@ -5,7 +5,7 @@ last_modified_at: 2020-05-11T22:31:31-05:00
 hide-title: true
 permalink: /students/
 ---
-<section>
+<section class="low-key">
   <h1>What I Taught at Nashville Software School:</h1>
   <img src="/images/rails_topic_list.jpg" />
 </section>
