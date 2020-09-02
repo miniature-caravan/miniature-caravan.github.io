@@ -5,13 +5,13 @@ last_modified_at: 2020-05-11T22:31:31-05:00
 hide-title: true
 permalink: /students/
 ---
-<h2>What I Teach:</h2>
 <section>
+  <h1>What I Taught at Nashville Software School:</h1>
   <img src="/images/rails_topic_list.jpg" />
 </section>
 
-<h2>Do you want to learn?</h2>
 <section>
+  <h2>Do you want to learn?</h2>
   <p>If you've always wanted to learn to program or are just a little bit curious, I'd be happy to help you learn by working through the programming tutorial of your choice (or I can suggest one based on what you'd like to learn).</p>
 
   <p>Suggestions of good places to start:</p>
@@ -25,8 +25,8 @@ permalink: /students/
   </ul>
 </section>
 
-<h2>What My Students Say:</h2>
 <section>
+  <h2>What My Students Say:</h2>
   <blockquote>
     <p>&#147;Eliza’s teachings are the sole reason that I feel confident in my ability to not only work in Ruby on Rails, but to also help teach it to others.&#148;</p>
     <cite>&mdash; Brandon Lyons, Junior Developer at The Skillery</cite>
@@ -45,8 +45,8 @@ permalink: /students/
   </blockquote>
 </section>
 
-<h2>My OG Students, back in 2012 :)</h2>
 <section>
+  <h2>My OG Students, back in 2012 :)</h2>
   <p>I haven't updated the photo gallery since 2012, but I don't mind that much because seeing these bring back happy memories of the first cohorts of students at NSS.</p>
   <ul class="gallery two-up">
     <li><img src="/images/cohort1.jpeg" alt="Nashville Software School Cohort 1" /></li>
