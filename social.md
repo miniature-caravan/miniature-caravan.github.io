@@ -15,8 +15,9 @@ permalink: /social/
     </section>
     <section class="high-key">
       <h2>LinkedIn</h2>
-      <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="elizabrock"><a class="LI-simple-link" href='https://www.linkedin.com/in/elizabrock?trk=profile-badge'>Eliza Marcum</a></div>
-      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+      <a href="www.linkedin.com/in/elizabrock">Eliza on LinkedIn</a>
+      <!-- <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="elizabrock" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/elizabrock?trk=profile-badge">Eliza Marcum</a></div>
+      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
     </section>
   </div>
   <div class="flex-small half">
