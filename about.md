@@ -153,5 +153,5 @@ permalink: /about/
 
   <p>In 2014, Eliza scaled back her consultancy to focus on her teaching at Nashville Software School, where between 2012 and 2016 she helped train over 200 new software developers in Nashville.  Her students have gone on to a thrillingly wide array of software careers!</p>
 
-  <p>Eliza is currently eCommerce Engineering Manager at Tuft & Needle.</p>
+  <p>Eliza is currently a Visiting Assistant Professor at Rose-Hulman Institute of Technology.</p>
 </section>
