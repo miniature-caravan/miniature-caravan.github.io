@@ -20,8 +20,9 @@ permalink: /portfolio_and_resume
     <li> 12+ years of professional software development </li>
     <li> 10+ years of Ruby/Rails, TDD, web application development </li>
     <li> 4 years of running a Rails consultancy, with my own team of developers </li>
-    <li> 3 years of teaching, with 200+ students that have gone on to careers that far exceeded my hopes </li>
+    <li> 3 years of teaching at a non-profit vocational school (Nashville Software School), with 200+ students that have gone on to careers that far exceeded my hopes </li>
     <li> 3 years of managing teams of developers in a more corporate environment </li>
+    <li> 2 years (and counting) of teaching web development to undergraduate students (at Rose-Hulman)</li>
     <li> a strong passion for disciplined software development as both an individual contributor and a leader </li>
   </ul>
 </section>
