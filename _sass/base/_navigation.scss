@@ -88,7 +88,8 @@ body > main {
 body > footer {
   @extend .container;
   max-width: $small;
-  padding: $big-space 0;
+  margin-top: $big-space;
+  padding: $base-space 0;
   border-top: $bold-borders;
   border-top-color: $happyorange;
   text-align: center;
