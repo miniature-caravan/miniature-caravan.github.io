@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Eliza Brock Marcum's Personal Website
+title: Eliza Brock Marcum's Business Website
 description: > # this means to ignore newlines until "baseurl:"
-  The personal website of Eliza Brock Marcum, Nashville-based Software Engineer,
-  and Educator.
+  Miniature Caravan, Eliza Marcum's business
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://elizamarcum.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://miniaturecaravan.com" # the base hostname & protocol for your site, e.g. http://example.com
 email: eliza@elizamarcum.com
 author:
   twitter: elizabrock
@@ -49,11 +48,6 @@ collections:
     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: "case_studies"
-    values:
-      layout: "case_study"
   - scope:
       path: ""
       type: "posts"

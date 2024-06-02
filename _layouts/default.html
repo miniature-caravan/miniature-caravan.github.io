@@ -14,12 +14,6 @@
     <body>
         <header>
           <nav>
-            <a href="{{ site.baseurl }}/" id="logo">
-              <figure>
-                <img src="/images/elizabrockicon.png" alt="Eliza Brock Marcum Icon" />
-                <figcaption>Eliza Marcum</figcaption>
-              </figure>
-            </a>
             <ul>
               {% assign sorted_pages = site.pages | sort:"order" %}
               {% for my_page in sorted_pages %}
@@ -31,16 +25,12 @@
           </nav>
         </header>
 
-        <main class="small-container">
+        <main class="medium-container">
           {{ content }}
         </main>
 
         <footer id="site-footer">
           <h5>
-            For Good Quotes, Free Advice and Excellent Conversation:
-            <a href="mailto:eliza@elizamarcum.com">email</a>
-            or
-            <a href="http://twitter.com/#!/elizabrock" target="_blank">tweet</a>
           </h5>
         </footer>
 

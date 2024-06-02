@@ -213,9 +213,7 @@ dd {
 // Container
 .container {
   max-width: $large;
-  // padding: 0 $padding;
-  // ^ Commented out because it simply doesn't look good in my design,
-  //   and overriding it in my stylesheets is a bit of a pain.
+  padding: 0 $padding;
   margin-left: auto;
   margin-right: auto;
 }
